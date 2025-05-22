@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Katabump Login</title>
+<style>
+    body {
+        background: #111;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        margin: 0;
+        padding: 20px;
+    }
+    .container {
+        max-width: 350px;
+        background: #1f1f1f;
+        padding: 25px;
+        margin: 50px auto;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .rocket {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    p {
+        font-size: 14px;
+        color: #ccc;
+        margin-bottom: 20px;
+    }
+    input[type="email"], input[type="password"] {
+        width: 100%;
+        background: #222;
+        color: #fff;
+        border: 1px solid #333;
+        border-radius: 6px;
+        padding: 12px;
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+    .input-group {
+        position: relative;
+    }
+    .input-group span {
+        position: absolute;
+        left: 10px;
+        top: 12px;
+        color: #888;
+    }
+    input[type="email"] {
+        padding-left: 30px;
+    }
+    .forgot {
+        float: right;
+        color: #f44336;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    .remember {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+    }
+    .remember input {
+        margin-right: 8px;
+    }
+    button {
+        background: #1a73e8;
+        border: none;
+        width: 100%;
+        padding: 12px;
+        color: #fff;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #1669c1;
+    }
+    .bottom {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    .bottom a {
+        color: #f44336;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+    .discord-btn {
+        background: #fff;
+        color: #000;
+        margin-top: 20px;
+        padding: 12px;
+        border-radius: 6px;
+        border: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .discord-btn img {
+        width: 20px;
+        margin-right: 8px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="rocket">🚀</div>
+    <h2>Login to Your Account</h2>
+    <p>Enter your email & password to login</p>
+
+    <form action="login.php" method="post">
+        <div class="input-group">
+            <span>@</span>
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="input-group">
+            <input type="password" name="password" placeholder="Password" required>
+            <a href="#" class="forgot">Forgot ?</a>
+        </div>
+        <div class="remember">
+            <input type="checkbox" name="remember"> Remember me
+        </div>
+        <button type="submit">Login</button>
+    </form>
+
+    <div class="bottom">
+        Don't have account? <a href="#">Create an account</a>
+    </div>
+
+    <button class="discord-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord Icon">
+        Login with Discord
+    </button>
+</div>
+
+</body>
+</html>
