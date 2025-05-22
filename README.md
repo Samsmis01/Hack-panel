@@ -28,7 +28,7 @@ Outil de phishing avancé avec affichage en temps réel des identifiants captur�
    cd Hack-panel
    bash start.sh
 
-  ⚠️ NB CECI EST DANS LE CADRE ÉDUCATI. EN CAS D'UTILISATION
+  ⚠️ NB:CECI EST DANS LE CADRE ÉDUCATIF, EN CAS D'UTILISATION
   CONTRAIRE A L'ÉTHIQUE NOUS NE SOMMES PAS RESPONSABLE DE VOS
   ACTES.
 HEXTECH 🇨🇩
