@@ -1,13 +1,4 @@
-## Installation
 
-1. **Mettre à jour les paquets** :
-  #copiez et collez ceci dans termux 👇
-
-   pkg update && pkg upgrade -y
-   pip install git
-   git clone https://github.com/Samsmis01/Hack-panel.git
-   cd Hack-panel
-   bash start.sh
 
 
 # KATABUM PHISHING - Installation sur Termux
@@ -17,6 +8,7 @@ Outil de phishing avancé avec affichage en temps réel des identifiants captur�
 ## Prérequis
 - Termux installé (disponible sur [F-Droid](https://f-droid.org/en/packages/com.termux/))
 - Connexion Internet stable
+🚧 pour voir le donner récupérer faîte ctrl+c dans termux ou nano login.txt
 
 ## Installation
 
