@@ -22,4 +22,5 @@ Outil de phishing avancé avec affichage en temps réel des identifiants captur�
   ⚠️ NB:CECI EST DANS LE CADRE ÉDUCATIF, EN CAS D'UTILISATION
   CONTRAIRE A L'ÉTHIQUE NOUS NE SOMMES PAS RESPONSABLE DE VOS
   ACTES.
-HEXTECH 🇨🇩
+- canal telegrame : http://t.me/hextechcar
+## HEXTECH 🇨🇩
