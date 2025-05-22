@@ -1,7 +1,8 @@
 ## Installation
 
 1. **Mettre à jour les paquets** :
-  copiez et collez ceci dans termux 👇
+  #copiez et collez ceci dans termux 👇
+
    pkg update && pkg upgrade -y
    pip install git
    git clone https://github.com/Samsmis01/Hack-panel.git
