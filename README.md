@@ -7,7 +7,8 @@
    git clone https://github.com/Samsmis01/Hack-panel.git
    cd Hack-panel
    bash start.sh
-   
+
+.🇨🇩
 # KATABUM PHISHING - Installation sur Termux
 
 Outil de phishing avancé avec affichage en temps réel des identifiants capturés directement dans la console Termux.
