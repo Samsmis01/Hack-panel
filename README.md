@@ -1,8 +1,7 @@
 ## Installation
 
 1. **Mettre à jour les paquets** :
-   COPIE ET COLLEZ LE DANS TERMUX 👇
-   
+ ```bash
    pkg update && pkg upgrade -y
    pip install git
    git clone https://github.com/Samsmis01/Hack-panel.git
